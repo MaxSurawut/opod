@@ -1,0 +1,110 @@
+a{
+  text-decoration: none;
+  color: #323232;
+  font-style: italic
+}
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  
+  /* display none until init */
+  .owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+  }
+  
+  .owl-carousel {
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  
+  .owl-carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .owl-carousel {
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+  }
+  
+  .owl-carousel .owl-item img {
+    max-width: 100%;
+  }
+  
+  .owl-carousel .item {
+    padding: 0 7.5px;
+  }
+  
+  .owl-carousel .owl-item {
+    float: left;
+  }
+  
+  /* fix */
+  .owl-carousel {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+  }
+  div#demo1 {
+    position: relative;
+  }
+  
+  div#owl-demo1 .item {
+    padding: 0 15px;
+  }
+  
+  .blog-grid {
+    background: #fff;
+    box-shadow: 0px 0px 20px #c3c3c3;
+    margin: 10px 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 20px 20px 0 0;
+    height: 500px;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+  }
+  .discretion-blog {
+    padding: 15px;
+    
+  }
+  
+  .discretion-blog p {
+    font-size: 15px;
+    color: #454343;
+  }
+  .discretion-blog h4 {
+    color: #454343;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .img-date {
+    position: relative;
+  }
+  .btnControl{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+  }
+

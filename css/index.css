@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+img{
+    width: 100%
+}
+.body-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #EB7626;
+    padding-bottom: 2rem;
+}
+.hero-banner-wrapper{
+    position: relative;
+}
+.container{
+    max-width: 1080px;
+    margin: 2rem auto;
+    text-align: center;
+    
+}
+.content-bg{
+    background-color: #F3EDE0;
+    border-radius: 2rem;
+}
+.kw1{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 35%
+}
+.kw2{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 35%
+}
+.dot-section{
+    margin: 1rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: .5rem;
+    position: absolute;
+    bottom: 15px;
+}
+.dot{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.dot.active{
+    background-color: #d4d4d4
+}
+article h1{
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.headline-divide{
+    border: 1px solid #000;
+    width: 50px;
+    margin: 1rem auto
+}
+article>p{
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+article p span{
+    font-weight: bold;
+}
+.body-img{
+    margin: 1rem auto;
+    border-radius: 18px
+}
+.blog-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+}
+.blog-header div:nth-child(2){
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    width: 100%
+}
+.dot-line{
+    border: dashed 3px #C8BDA7;
+    width: 20%;
+}
+.blog-control{
+    position: relative;
+}
+.blog-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+    
+}
+.dashed-line{
+    margin: 2rem auto;
+    border: dashed 3px #C8BDA7;
+    width: 95%
+}
+@media only screen and (max-width: 600px){
+    article h1{
+        font-size: 2rem;
+    }
+    article>p{
+        font-size: 1.1rem;
+    }
+    .blog-header div:nth-child(2){
+        font-size: 2rem;
+    }
+    .kw1{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 35%
+    }
+    .kw2{
+        position: absolute;
+        bottom: .5rem;
+        right: .5rem;
+        width: 35%
+    }
+}
+
